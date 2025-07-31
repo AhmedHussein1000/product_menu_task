@@ -5,7 +5,7 @@ A Flutter application displaying a product menu with Bloc state management and S
 ## How to Run the App and Populate Demo Data
 
 1. Run the application:
-   ```
+
 # 1. Clone the repository
 git clone https://github.com/AhmedHussein1000/product_menu_task.git
 
@@ -17,7 +17,7 @@ flutter pub get
 
 # 4. Run the app
 flutter run
-   ```
+   
 
 Demo data is automatically populated using Sqflite when the database is initialized in `lib/data/database_helper.dart`, inserting initial products and categories.
 
@@ -87,6 +87,9 @@ constants.dart — all category texts centralized
 
 database_helper.dart and products_cubit.dart updated to use constants
 
+## 📸 Screenshot Comparison
+<img width="1101" height="969" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/3b28231c-0b51-4c55-9274-3bb7d0ed1908" />
+
 
 ## Project Structure
 
@@ -125,7 +128,7 @@ lib/
 │   └── products_grid.dart
 │
 └── main.dart
-
+```
 
 ## Used Tools
 
